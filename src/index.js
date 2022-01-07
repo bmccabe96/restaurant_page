@@ -1,1 +1,3 @@
-console.log("TESTING");
+import createHome from "./website";
+
+createHome();
