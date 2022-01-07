@@ -4,19 +4,12 @@
   "description": "Odin restaurant page project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --mode=production",
+    "watch": "webpack --progress --watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bmccabe96/restaurant_page.git"
-  },
-  "keywords": [],
-  "author": "",
+  "author": "brianmccabe",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bmccabe96/restaurant_page/issues"
-  },
-  "homepage": "https://github.com/bmccabe96/restaurant_page#readme",
   "devDependencies": {
     "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1"
